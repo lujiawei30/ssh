@@ -16,9 +16,10 @@
     <s:text name="register.title"/>
 </h2>
 <s:form action="register" method="POST">
-    <s:textfield name="user.name" key="username"/>
+    <s:textfield name="user.username" key="username"/>
     <s:textfield name="user.password" key="password"/>
-    <s:submit key="sumbit"/>
+    <s:textfield name="user.repassword" key="repassword"/>
+    <s:submit key="submit"/>
 </s:form>
 </body>
 </html>
