@@ -10,7 +10,7 @@ public class HelloWorldTest {
     public void testSayHi() {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
-        System.out.println(helloWorld.sayHi("ljw"));
+        System.out.println(helloWorld.sayHi("Mr L"));
     }
 
 }
